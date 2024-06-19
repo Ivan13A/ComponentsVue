@@ -1,10 +1,17 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Counter from '../components/vue/Counter.vue';
+// import Counter from '../components/vue/Counter.vue';
+// import IdTarget from '../components/vue/IdTarget.vue';
+import TargetTwo from '../components/vue/TargetTwo.vue'
 ---
 
 <Layout title="Welcome to Astro.">
-	<Counter client:load />
+
+	<TargetTwo client:load />
+
+	<!-- <IdTarget client:load/> -->
+
+	<!-- <Counter client:load /> -->
 
 </Layout>
 
